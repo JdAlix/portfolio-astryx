@@ -11,7 +11,7 @@
         <!-- Contenu du texte -->
         <div>
           <h1>Alix JEUDI</h1>
-          <h4 class="mb-3">Diplômé de BUT Informatique (Université Clermont Auvergne)</h4>
+          <h4 class="mb-3">Ingénieur LSI en alternance - EFREI Paris</h4>
           <p class="text-justify">
             Animé par une passion pour l'administration système et la sécurité informatique,
             j'ai récemment été diplômé d'un BUT Informatique,
@@ -19,8 +19,11 @@
             mes compétences et d'acquérir une expérience précieuse dans le domaine.
           </p>
           <p class="text-justify">
+            Actuellement, je suis à la recherche d'une alternance en ingénieur en développement applicatif / DevOps pour une durée de 3 ans, en région Parisienne, à partir de septembre 2026.
+          </p>
+          <p class="text-justify">
             Dans ce portfolio, vous trouverez des informations sur mes compétences,
-            mon parcours académique et professionnel, ainsi que mes projets réalisés lors de ma formation à l'Université Clermont Auvergne.
+            mon parcours académique et professionnel, ainsi que mes projets réalisés lors de ma précédente formation à l'Université Clermont Auvergne.
           </p>
           <p class="text-justify">
             N'hésitez pas à explorer les différentes sections pour en savoir plus sur moi et mes réalisations.

@@ -31,10 +31,11 @@
               tout en apprenant l'importance de la <u>fiabilité</u> et de la <u>sécurité</u> dans les systèmes informatiques.
             </p>
             <p class="text-justify">
-              Mon objectif est de poursuivre mes études en intégrant la <a href="https://www.efrei.fr/formation/filieres-en-apprentissage/" target="_blank" rel="noopener">filière apprentissage de l'EFREI</a> à Villejuif, en région parisienne, avec la majeure <strong>Logiciels et Systèmes d'information</strong>.
-              Cette formation d’ingénieur en alternance forme des professionnels capables de concevoir, développer et piloter des solutions numériques innovantes,
+              Admis à la <a href="https://www.efrei.fr/formation/filieres-en-apprentissage/" target="_blank" rel="noopener">filière apprentissage de l'EFREI</a> à Villejuif, en région parisienne, avec la majeure <strong>Logiciels et Systèmes d'information</strong>, je poursuivrai mes études au sein de cette formation d’ingénieur en alternance.
+              Cette filière forme des professionnels capables de concevoir, développer et piloter des solutions numériques innovantes,
               en associant compétences techniques et expérience en entreprise.
-              Je veux approfondir mes connaissances en développement logiciel, en systèmes d'information, en intégration cloud et en méthodes DevOps,
+              Je recherche actuellement une alternance de 3 ans en <strong>ingénieur développement applicatif / DevOps</strong>, en région parisienne, à partir de septembre 2026,
+              afin d'approfondir mes connaissances en développement logiciel, en systèmes d'information, en intégration cloud et en méthodes DevOps,
               tout en travaillant sur des projets concrets qui soutiennent la transformation digitale des organisations.
             </p>
             <p class="text-justify">
