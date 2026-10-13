@@ -12,21 +12,29 @@
 </script>
 
 <template>
-    <footer class="footer mt-auto bg-body-tertiary d-flex align-items-center justify-content-center">
-        <div class="container text-center">
-            <span class="text-muted">© 2025 Alix JEUDI--LEMOINE. Tous droits réservés.</span>
+  <footer class="footer mt-auto bg-body-tertiary d-flex align-items-center justify-content-center">
+    <div class="container text-center">
+      <span class="text-muted">© 2025 Alix JEUDI--LEMOINE. Tous droits réservés.</span>
             
-            <a :href="linkedin" rel="noopener" target="_blank">
-                <em class="bi bi-linkedin"></em>
-            </a>
-            <a :href="git" rel="noopener" target="_blank">
-                <em class="bi bi-git"></em>
-            </a>
-            <a :href="email">
-                <em class="bi bi-envelope"></em>
-            </a>
-        </div>
-    </footer>
+      <a
+        :href="linkedin"
+        rel="noopener"
+        target="_blank"
+      >
+        <em class="bi bi-linkedin" />
+      </a>
+      <a
+        :href="git"
+        rel="noopener"
+        target="_blank"
+      >
+        <em class="bi bi-git" />
+      </a>
+      <a :href="email">
+        <em class="bi bi-envelope" />
+      </a>
+    </div>
+  </footer>
 </template>
 
 <style>

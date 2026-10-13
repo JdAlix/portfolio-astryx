@@ -4,14 +4,20 @@
       <div class="col-md-3 mb-4">
         <!-- Div pour la photo -->
         <div class="rounded-circle overflow-hidden w-75">
-          <img src="@/assets/me.jpg" alt="Alix JEUDI" class="w-100">
+          <img
+            src="@/assets/me.jpg"
+            alt="Alix JEUDI"
+            class="w-100"
+          >
         </div>
       </div>
       <div class="col-md-9 mt-4">
         <!-- Contenu du texte -->
         <div>
           <h1>Alix JEUDI</h1>
-          <h4 class="mb-3">Ingénieur LSI en alternance - EFREI Paris</h4>
+          <h4 class="mb-3">
+            Ingénieur LSI en alternance - EFREI Paris
+          </h4>
           <p class="text-justify">
             Animé par une passion pour l'administration système et la sécurité informatique,
             j'ai récemment été diplômé d'un BUT Informatique,
@@ -39,21 +45,36 @@
         <div class="rounded p-4 border text-center">
           <h2>À propos</h2>
           <p>En savoir plus sur moi</p>
-          <router-link to="/about" class="btn btn-primary">Découvrir</router-link>
+          <router-link
+            to="/about"
+            class="btn btn-primary"
+          >
+            Découvrir
+          </router-link>
         </div>
       </div>
       <div class="col-md-4 mt-5 mx-auto">
         <div class="rounded p-4 border text-center">
           <h2>CV</h2>
           <p>Consultez et téléchargez mon CV</p>
-          <router-link to="/cv" class="btn btn-light">Voir</router-link>
+          <router-link
+            to="/cv"
+            class="btn btn-light"
+          >
+            Voir
+          </router-link>
         </div>
       </div>
       <div class="col-md-4 mt-5 mx-auto">
         <div class="rounded p-4 border text-center">
           <h2>Projets</h2>
           <p>Découvrez mes projets universitaires</p>
-          <router-link to="/projects" class="btn btn-danger">Explorer</router-link>
+          <router-link
+            to="/projects"
+            class="btn btn-danger"
+          >
+            Explorer
+          </router-link>
         </div>
       </div>
     </div>

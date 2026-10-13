@@ -6,15 +6,28 @@
         <div class="position-relative">
           <!-- Flèche à gauche -->
           <div class="arrow left-arrow">
-            <img :src="arrowImage" alt="flèche" srcset="">
+            <img
+              :src="arrowImage"
+              alt="flèche"
+              srcset=""
+            >
           </div>
 
           <!-- Image du CV -->
-          <a :href="cv" download="CV_Alix_JEUDI.pdf">
-            <img src="@/assets/CV.jpg" alt="CV de Alix JEUDI" class="w-100">
+          <a
+            :href="cv"
+            download="CV_Alix_JEUDI.pdf"
+          >
+            <img
+              src="@/assets/CV.jpg"
+              alt="CV de Alix JEUDI"
+              class="w-100"
+            >
           </a>
           
-          <p class="lead">Cliquez sur le CV pour le télécharger en PDF.</p>
+          <p class="lead">
+            Cliquez sur le CV pour le télécharger en PDF.
+          </p>
         </div>
       </div>
     </div>
@@ -35,11 +48,6 @@ export default {
       cv: ''
     };
   },
-  methods: {
-    updateArrowImage() {
-      this.arrowImage = document.body.dataset.bsTheme === 'dark' ? arrowWhite : arrowDark;
-    }
-  },
   mounted() {
     this.cv = cv;
 
@@ -50,6 +58,11 @@ export default {
       this.updateArrowImage();
     });
     mutationObserver.observe(document.body, { attributes: true });
+  },
+  methods: {
+    updateArrowImage() {
+      this.arrowImage = document.body.dataset.bsTheme === 'dark' ? arrowWhite : arrowDark;
+    }
   }
 };
 </script>
