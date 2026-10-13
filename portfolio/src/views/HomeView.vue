@@ -25,7 +25,7 @@
             mes compétences et d'acquérir une expérience précieuse dans le domaine.
           </p>
           <p class="text-justify">
-            Actuellement, je suis à la recherche d'une alternance en ingénieur en développement applicatif / DevOps pour une durée de 3 ans, en région Parisienne, à partir de septembre 2026.
+            Actuellement, je réalise mon alternance chez <strong>3DS OUTSCALE</strong>, marque de Dassault Systèmes spécialisée dans le <strong>cloud souverain</strong>, les infrastructures cloud et les services cloud.
           </p>
           <p class="text-justify">
             Dans ce portfolio, vous trouverez des informations sur mes compétences,

@@ -56,8 +56,8 @@
               >filière apprentissage de l'EFREI</a> à Villejuif, en région parisienne, avec la majeure <strong>Logiciels et Systèmes d'information</strong>, je poursuivrai mes études au sein de cette formation d’ingénieur en alternance.
               Cette filière forme des professionnels capables de concevoir, développer et piloter des solutions numériques innovantes,
               en associant compétences techniques et expérience en entreprise.
-              Je recherche actuellement une alternance de 3 ans en <strong>ingénieur développement applicatif / DevOps</strong>, en région parisienne, à partir de septembre 2026,
-              afin d'approfondir mes connaissances en développement logiciel, en systèmes d'information, en intégration cloud et en méthodes DevOps,
+              Je réalise actuellement mon alternance chez <strong>3DS OUTSCALE</strong>, marque de Dassault Systèmes spécialisée dans le <strong>cloud souverain</strong>, les infrastructures cloud et les services cloud.
+              Cette expérience me permet d'approfondir mes connaissances en systèmes d'information, en intégration cloud et en méthodes DevOps,
               tout en travaillant sur des projets concrets qui soutiennent la transformation digitale des organisations.
             </p>
             <p class="text-justify">
