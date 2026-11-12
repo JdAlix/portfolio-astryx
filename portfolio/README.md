@@ -1,6 +1,11 @@
-# Portfolio
+# Portfolio — test Astryx
 
-Site personnel d'Alix JEUDI — React 19, Vite et le design system [Astryx](https://github.com/meta/astryx).
+Site personnel d'Alix JEUDI — **test du design system [Astryx](https://github.com/meta/astryx) de Meta**, appliqué par une IA.
+
+**⇨ Démo : [portfolio-astryx.alix-jdlm.fr](https://portfolio-astryx.alix-jdlm.fr)**
+
+Cette version est une déclinaison React 19 + Vite du portfolio original (Vue.js), disponible sur
+[alix-jdlm.fr](https://alix-jdlm.fr). Elle sert de terrain d'essai pour le framework Astryx.
 
 ## Stack
 

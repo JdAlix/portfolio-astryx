@@ -1,11 +1,11 @@
 services:
-  portfolio:
-    container_name: portfolio
+  portfolio-astryx:
+    container_name: portfolio-astryx
     build:
       context: .
       dockerfile: ./docker/Dockerfile
       pull: true
-    image: portfolio:latest
+    image: portfolio-astryx:latest
     restart: unless-stopped
     read_only: true
     tmpfs:
@@ -20,7 +20,7 @@ services:
         max-file: "3"
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.portfolio-http-rtr.entrypoints=web"
-      - "traefik.http.routers.portfolio-http-rtr.rule=Host(`alix-jdlm.fr`) || Host(`www.alix-jdlm.fr`)"
-      - "traefik.http.routers.portfolio-http-rtr.service=portfolio-svc"
-      - "traefik.http.services.portfolio-svc.loadbalancer.server.port=8080"
+      - "traefik.http.routers.portfolio-astryx-http-rtr.entrypoints=web"
+      - "traefik.http.routers.portfolio-astryx-http-rtr.rule=Host(`portfolio-astryx.alix-jdlm.fr`)"
+      - "traefik.http.routers.portfolio-astryx-http-rtr.service=portfolio-astryx-svc"
+      - "traefik.http.services.portfolio-astryx-svc.loadbalancer.server.port=8080"

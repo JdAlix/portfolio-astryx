@@ -39,7 +39,8 @@ npx astryx doctor --built dist   # validates the Astryx build
 
 ## Deploy / infra gotchas
 
-- `docker compose up -d --build` at the repo root builds and serves on port 8080 behind Traefik (hosts `alix-jdlm.fr`, `www.alix-jdlm.fr`).
+- `docker compose up -d --build` at the repo root builds and serves on port 8080 behind Traefik (host `portfolio-astryx.alix-jdlm.fr`).
+- Container, image, Traefik router and service are all named `portfolio-astryx` so this stack can coexist with the original `portfolio` deployment on the same host.
 - The container runs `read_only: true` with `cap_drop: [ALL]` and only `/tmp` writable — don't add code that writes to the filesystem at runtime.
 - `.dockerignore` excludes `portfolio/node_modules` and `portfolio/dist`; the Dockerfile copies `portfolio/package*.json` first for layer caching, so dependency changes require updating the lockfile.
 - `docker/nginx.conf` intentionally returns 444 for scanner paths (`.php`, `.env`, `.git`, `wp-`, `phpmyadmin`) and sets security headers; preserve these when editing.
